@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./imagenes/halo-wallpaper.jpg');
+      background-repeat: no-repeat; /* Opcional: especifica si la imagen de fondo debe repetirse o no */
+      background-size: cover; /* Opcional: especifica cómo se debe ajustar la imagen de fondo */
+    font-family: 'Arial';
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    box-shadow: 0 0 11px 0px rgba(251, 251, 251, 0.75);
+    padding: 0 0 30px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    display: block;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title{
+color: #4475A9;
+text-align: center;
+margin: 20px 0 10px;
+}
+
+.copy{
+    text-align: center;
+}
+
+.cta{
+    background-color: #4475A9;
+    padding: 13px 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.732);
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.cortana{
+    width: 350px;
+    display: block;
+    margin: 30px auto;
+    /* box-shadow: 10px 10px 4px #203855; */
+    filter: drop-shadow(0 0 50px #999a9dc1);
+}
